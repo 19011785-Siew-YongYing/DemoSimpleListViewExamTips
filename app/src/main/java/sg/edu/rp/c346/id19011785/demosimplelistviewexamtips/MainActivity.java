@@ -10,10 +10,10 @@ import android.widget.ListView;
 public class MainActivity extends AppCompatActivity {
 
     ListView lvExamTips;
+    String[] examTipsArray;
 //    TextView textView, textView2; // recap for array and arraylist
 //    String[] fruits; // recap for array and arraylist
 //    ArrayList<String> alFruits;
-    String[] examTipsArray;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
